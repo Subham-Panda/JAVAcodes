@@ -7,8 +7,7 @@ import java.io.*;
 public class fileinputstream2 {
 	public static void main(String[] args) throws Throwable {
 
-		// FileInputStream fin = new
-		// FileInputStream("/home/subham/Desktop/JAVACAT2PRACTICE/FILEHANDLING/FILES/test1.txt")
+		// FileInputStream fin = new FileInputStream("/home/subham/Desktop/JAVACAT2PRACTICE/FILEHANDLING/FILES/test1.txt")
 
 		try {
 			File obj = new File("/home/subham/Desktop/JAVACAT2PRACTICE/FILEHANDLING/FILES/test1.txt");
