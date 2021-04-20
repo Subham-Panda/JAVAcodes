@@ -19,4 +19,4 @@
 
 ## EXCEPTION CLASS HEIRARCHY
 
-<img src="THEORY/exceptionClassHeirarchy.png">
+<img src="Images/exceptionClassHeirarchy.png">
