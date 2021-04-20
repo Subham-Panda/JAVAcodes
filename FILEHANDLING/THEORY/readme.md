@@ -215,3 +215,115 @@
 	>>void writeDouble(double d)
 	>>
 	>>void writeUTF(String s)
+
+<br/>
+<br/>
+
+# OBJECT SERIALIZATION AND DESERIALIZATION
+- ## ObjectOutputStream - serialize object - needs to be created around FileOutputStream
+- ## ObjectInputStream - deserialize object - needs to be created around FileInputStream
+- ## *transient* keyword is used to not serialize class members, it cannot be used on methods
+- ## Static variables and methods are not for objects and hence not serialize
+
+<br/>
+<br/>
+
+# BufferedInputstream
+- needs to be built around an input stream
+
+	> ## Call these methods on BufferedInputStream object, i.e new BufferedInputStream().method
+	>
+	>>int available()
+	>>
+	>>int read()
+	>>
+	>>int read(byte[] b)()
+	>>
+	>>int read(byte[] b, int off, int len)()
+	>>
+	>>mark()
+	>>
+	>>boolean markSupported() - tells if the stream supports mark
+	>>
+	>>reset() - resets to mark
+	>>
+	>>skip(int n)
+	>>
+	>>void close()
+
+
+<br/>
+<br/>
+
+# BufferedOutputstream
+- needs to be built around an output stream
+
+	> ## Call these methods on BufferedOutputStream object, i.e new BufferedOutputStream().method
+	>
+	>>flush()
+	>>
+	>>write(int b)
+	>>
+	>>write(byte b[])
+	>>
+	>>write(byte b[], int offset, int length)
+
+<br/>
+<br/>
+
+- ## BufferedInput and BufferedOutput Streams reads and writes bytes
+- ## To read and write characters we can use BufferedReader and BufferedWriter 
+
+<br/>
+<br/>
+
+# BufferedReader
+- needs to be built around an FileReader  or InputStreamReader
+
+	> ## Call these methods on BufferedReader object, i.e new BufferedReader().method
+	>
+	>>int available()
+	>>
+	>>int read()
+	>>
+	>>int read(char[] b)()
+	>>
+	>>int read(char[] b, int off, int len)()
+	>>
+	>>readLine() - reads a line of text
+	>>
+	>>ready() - tells whether stream is ready to be read
+	>>
+	>>mark()
+	>>
+	>>reset()
+	>>
+	>>skip(int n)
+	>>
+	>>void close()
+
+<br/>
+<br/>
+
+# BufferedWriter
+- needs to be built around an FileWriter or OutputStreamWriter
+
+	> ## Call these methods on BufferedWriter object, i.e new BufferedWriter().method
+	>
+	>>flush()
+	>>
+	>>write(int b)
+	>>
+	>>write(char c[])
+	>>
+	>>write(char c[], int offset, int length)
+	>>
+	>>write(String s)
+	>>
+	>>write(String s, int offset, int length)
+	>>
+	>>newLine()
+	>>
+	>>close()
+
+
