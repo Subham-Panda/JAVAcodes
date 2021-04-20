@@ -23,3 +23,6 @@
 - bufferedreader2
 - bufferedreader3
 - bufferedwriter
+- scanner1
+- scanner2
+- scanner3
