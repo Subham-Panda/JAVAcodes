@@ -1,6 +1,6 @@
 package EXCEPTIONS.PROGRAMS;
 
-import java.util.*;
+// import java.util.*;
 import java.sql.SQLException;
 
 public class excpetion9 {
