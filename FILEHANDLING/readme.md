@@ -44,7 +44,7 @@
 <br/>
 
 # Input stream heirarchy
-<img src="Inputstream.png" />
+<img src="THEORY/Inputstream.png" />
 
 <br/>
 <br/>
@@ -70,7 +70,7 @@
 <br />
 
 # Output stream heirarchy
-<img src="Outputstream.png" />
+<img src="THEORY/Outputstream.png" />
 
 <br/>
 <br/>
@@ -103,7 +103,7 @@
 <br/>
 
 # Reader heirarchy
-<img src="reader.png" />
+<img src="THEORY/reader.png" />
 
 <br/>
 <br/>
@@ -125,7 +125,7 @@
 <br/>
 
 # Writer heirarchy
-<img src="writer.png" />
+<img src="THEORY/writer.png" />
 
 <br/>
 <br/>
