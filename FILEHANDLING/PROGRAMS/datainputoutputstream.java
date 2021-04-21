@@ -20,6 +20,7 @@ public class datainputoutputstream {
 			System.out.println(din.readBoolean());
 			System.out.println(din.readDouble());
 			System.out.println(din.readUTF());
+			din.close();
 			//! on changing the order of read from write, undesired answer occurs
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
