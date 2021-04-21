@@ -1,4 +1,3 @@
-package FILEHANDLING.PROGRAMS;
 import java.io.*;
 public class filewriter2 {
 	public static void main(String[] args) throws Throwable {

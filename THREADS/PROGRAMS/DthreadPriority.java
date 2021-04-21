@@ -1,5 +1,4 @@
-package THREADS.PROGRAMS;
-public class thread4 {
+public class DthreadPriority {
 	public static void main(String[] args) {
 		Thread thr1 = new Thread(new Runnable(){
 			@Override

@@ -1,6 +1,4 @@
-package THREADS.PROGRAMS;
-
-public class thread9 {
+public class IthreadStaticSynchronized{
 	public static void main(String[] args) throws Throwable {
 
 		// SYNCHRONIZED THREADS

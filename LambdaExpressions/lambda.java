@@ -1,6 +1,4 @@
-package LambdaExpressions;
-
-public class lambda1 {
+public class lambda {
 	public static void main(String[] args) {
 		employee1 e = () -> {
 			System.out.println("HELLO WORLD");

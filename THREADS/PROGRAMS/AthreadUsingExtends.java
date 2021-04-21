@@ -1,8 +1,5 @@
-package THREADS.PROGRAMS;
-
 import java.io.*;
-
-public class threadUsingExtends {
+public class AthreadUsingExtends {
 	public static void main(String[] args) {
 		// processfile1 file1 = new processfile1();
 		// processfile2 file2 = new processfile2();

@@ -1,5 +1,3 @@
-package FILEHANDLING.PROGRAMS;
-
 import java.io.File;
 
 public class file2 {

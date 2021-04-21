@@ -1,6 +1,4 @@
-package THREADS.PROGRAMS;
-
-public class thread8 {
+public class HthreadSynchronizedWithSleep {
 	public static void main(String[] args) throws Throwable {
 
 		// SYNCHRONIZED THREADS

@@ -1,6 +1,4 @@
-package ClassExamples.AnonymousClass;
-
-public class class1 {
+public class AclassGeneral {
 	public static void main(String[] args) {
 		//GENERAL WAY TO PERFORM
 		student1 s = new student1();

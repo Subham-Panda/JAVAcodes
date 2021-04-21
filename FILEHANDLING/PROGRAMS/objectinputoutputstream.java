@@ -1,5 +1,3 @@
-package FILEHANDLING.PROGRAMS;
-
 import java.io.*;
 public class objectinputoutputstream {
 	public static void main(String[] args) throws Throwable {

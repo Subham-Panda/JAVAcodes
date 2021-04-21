@@ -1,5 +1,4 @@
-package THREADS.PROGRAMS;
-public class threadWithAnonymousRunnableClass {
+public class CthreadWithAnonymousRunnableClass {
 	public static void main(String[] args) {
 		Thread thr1 = new Thread(new Runnable(){
 			@Override

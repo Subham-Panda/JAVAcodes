@@ -1,6 +1,4 @@
-package THREADS.PROGRAMS;
-
-public class threadUsingImplementsRunnable {
+public class BthreadUsingImplementsRunnable {
 	public static void main(String[] args) {
 		test t = new test();
 		Thread thr = new Thread(t); // We can give second paraemter as thread name

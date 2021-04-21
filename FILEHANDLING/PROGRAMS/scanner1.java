@@ -1,5 +1,3 @@
-package FILEHANDLING.PROGRAMS;
-
 import java.util.*;
 import java.io.*;
 

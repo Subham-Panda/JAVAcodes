@@ -1,5 +1,3 @@
-package EXCEPTIONS.PROGRAMS;
-
 import java.util.Scanner;
 
 public class exception4 {

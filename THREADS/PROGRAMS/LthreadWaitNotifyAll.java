@@ -1,6 +1,4 @@
-package THREADS.PROGRAMS;
-
-public class thread12 {
+public class LthreadWaitNotifyAll {
 	public static void main(String[] args) throws Throwable {
 		BankAccount subham = new BankAccount(2000);
 		Thread thr1=new Thread(new Runnable(){

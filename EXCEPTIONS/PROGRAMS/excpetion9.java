@@ -1,5 +1,3 @@
-package EXCEPTIONS.PROGRAMS;
-
 // import java.util.*;
 import java.sql.SQLException;
 

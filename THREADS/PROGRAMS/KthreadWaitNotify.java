@@ -1,6 +1,4 @@
-package THREADS.PROGRAMS;
-
-public class thread11 {
+public class KthreadWaitNotify {
 	public static void main(String[] args) throws Throwable {
 		Account subham = new Account(2000);
 		Thread thr1=new Thread(new Runnable(){

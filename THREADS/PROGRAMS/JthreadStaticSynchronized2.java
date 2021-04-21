@@ -1,6 +1,4 @@
-package THREADS.PROGRAMS;
-
-public class thread10 {
+public class JthreadStaticSynchronized2 {
 	public static void main(String[] args) throws Throwable {
 
 		// SYNCHRONIZED THREADS
