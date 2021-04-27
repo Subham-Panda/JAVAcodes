@@ -6,6 +6,7 @@ public class datainputoutputstream {
 			FileOutputStream fout = new FileOutputStream(obj);
 			DataOutputStream dout = new DataOutputStream(fout);
 			dout.writeInt(10);
+			dout.writeInt(20);
 			dout.writeChar('c');
 			dout.writeBoolean(true);
 			dout.writeDouble(22.5);
@@ -13,6 +14,7 @@ public class datainputoutputstream {
 			dout.close();
 			FileInputStream fin = new FileInputStream(obj);
 			DataInputStream din = new DataInputStream(fin);
+			System.out.println(din.readInt());
 			System.out.println(din.readInt());
 			System.out.println(din.readChar());
 			System.out.println(din.readBoolean());
