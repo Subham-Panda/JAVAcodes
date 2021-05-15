@@ -30,9 +30,8 @@ public class HthreadSynchronizedWithSleep {
 		System.out.println(s.balance);
 
 		/*
-		 OUTPUT: This is Withdrawl (waits 9 seconds) 
-		 This is Deposit (waits 9 seconds)
-		 15000
+		 * OUTPUT: This is Withdrawl (waits 9 seconds) This is Deposit (waits 9 seconds)
+		 * 15000
 		 */
 	}
 }
@@ -44,24 +43,38 @@ class bankAccount1 {
 		this.balance = deposit;
 	}
 
-	// public void withdraw(int withdraw_amount) throws Throwable {
-	// 	synchronized (this) {
-	// 		System.out.println("This is Withdrawl");
-	// 		Thread.currentThread().sleep(9000);
-	// 		this.balance = this.balance - withdraw_amount;
-	// 	}
-	// 	System.out.println("OUT OF SYNCHRONIZED BLOCK");
+	public void withdraw(int withdraw_amount) throws Throwable {
+		synchronized (this) {
+			System.out.println("This is Withdrawl - 9 second wait begins");
+			Thread.currentThread().sleep(9000);
+			System.out.println("This is Withdrawl - 9 second wait ends");
+			this.balance = this.balance - withdraw_amount;
+		}
+		System.out.println("OUT OF SYNCHRONIZED BLOCK");
+	}
+
+	public void deposit(int deposit_amount) throws Throwable {
+		synchronized (this) {
+			System.out.println("This is Deposit - 9 second wait begins");
+			Thread.currentThread().sleep(9000);
+			System.out.println("This is Deposit - 9 second wait ends");
+			this.balance = this.balance + deposit_amount;
+
+		}
+		System.out.println("OUT OF SYNCHRONIZED BLOCK");
+	}
+
+	// public synchronized void withdraw(int withdraw_amount) throws Throwable {
+	// System.out.println("This is Withdrawl - 9 second wait begins");
+	// Thread.currentThread().sleep(9000);
+	// System.out.println("This is Withdrawl - 9 second wait ends");
+	// this.balance = this.balance - withdraw_amount;
 	// }
 
-	public synchronized void withdraw(int withdraw_amount) throws Throwable {
-		System.out.println("This is Withdrawl");
-		Thread.currentThread().sleep(9000);
-		this.balance = this.balance - withdraw_amount;
-	}
-
-	public synchronized void deposit(int deposit_amount) throws Throwable {
-		System.out.println("This is Deposit");
-		Thread.currentThread().sleep(9000);
-		this.balance = this.balance + deposit_amount;
-	}
+	// public synchronized void deposit(int deposit_amount) throws Throwable {
+	// System.out.println("This is Deposit - 9 second wait begins");
+	// Thread.currentThread().sleep(9000);
+	// System.out.println("This is Deposit - 9 second wait ends");
+	// this.balance = this.balance + deposit_amount;
+	// }
 }

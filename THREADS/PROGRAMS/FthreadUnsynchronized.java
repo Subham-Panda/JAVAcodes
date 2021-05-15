@@ -20,9 +20,7 @@ public class FthreadUnsynchronized {
 			}
 		});
 		thr1.start();
-		thr2.start();
-		thr1.join();
-		thr2.join();
+		thr2.start();;
 		System.out.println(s.balance);
 	}
 }
