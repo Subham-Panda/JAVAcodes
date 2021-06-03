@@ -1,3 +1,5 @@
+package THREADS.PROGRAMS;
+
 public class EthreadJoin {
 	public static void main(String[] args) throws Throwable {
 		Thread thr1 = new Thread(new Runnable(){

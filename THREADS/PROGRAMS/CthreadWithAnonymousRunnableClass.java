@@ -1,3 +1,5 @@
+package THREADS.PROGRAMS;
+
 public class CthreadWithAnonymousRunnableClass {
 	public static void main(String[] args) {
 		Thread thr1 = new Thread(new Runnable(){

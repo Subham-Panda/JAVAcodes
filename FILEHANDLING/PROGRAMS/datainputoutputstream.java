@@ -2,7 +2,7 @@ import java.io.*;
 public class datainputoutputstream {
 	public static void main(String[] args) throws Throwable {
 		try {
-			File obj = new File("/home/subham/Desktop/JAVACAT2PRACTICE/FILEHANDLING/FILES/test5.txt");
+			File obj = new File("/home/subham/Desktop/JAVAcodes/FILEHANDLING/FILES/test5.txt");
 			FileOutputStream fout = new FileOutputStream(obj);
 			DataOutputStream dout = new DataOutputStream(fout);
 			dout.writeInt(10);

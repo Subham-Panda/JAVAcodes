@@ -1,3 +1,5 @@
+package LambdaExpressions;
+
 public class lambdaWithReturnType {
 	public static void main(String[] args) {
 		test3 t = (p, q) -> {

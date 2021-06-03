@@ -1,3 +1,5 @@
+package THREADS.PROGRAMS;
+
 public class JthreadStaticSynchronized2 {
 	public static void main(String[] args) throws Throwable {
 

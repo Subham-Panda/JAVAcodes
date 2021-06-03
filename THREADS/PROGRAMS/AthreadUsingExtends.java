@@ -1,3 +1,5 @@
+package THREADS.PROGRAMS;
+
 import java.io.*;
 public class AthreadUsingExtends {
 	public static void main(String[] args) {

@@ -3,7 +3,7 @@ import java.io.*;
 public class inputstreamreader {
 	public static void main(String[] args) throws Throwable {
 		try {
-			File obj = new File("/home/subham/Desktop/JAVACAT2PRACTICE/FILEHANDLING/FILES/test4.txt");
+			File obj = new File("/home/subham/Desktop/JAVAcodes/FILEHANDLING/FILES/test4.txt");
 			FileInputStream fin = new FileInputStream(obj);
 			InputStreamReader iread = new InputStreamReader(fin, "UTF16");
 			// InputStreamReader iread = new InputStreamReader(fin,Charset.forName("UTF16"));

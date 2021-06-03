@@ -1,3 +1,5 @@
+package THREADS.PROGRAMS;
+
 public class LthreadWaitNotifyAll {
 	public static void main(String[] args) throws Throwable {
 		BankAccount subham = new BankAccount(2000);

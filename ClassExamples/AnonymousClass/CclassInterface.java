@@ -1,3 +1,5 @@
+package ClassExamples.AnonymousClass;
+
 public class CclassInterface {
 	public static void main(String[] args) {
 		person3 p = new person3(){

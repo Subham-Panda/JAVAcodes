@@ -1,3 +1,5 @@
+package THREADS.PROGRAMS;
+
 public class KthreadWaitNotify {
 	public static void main(String[] args) throws Throwable {
 		Account subham = new Account(2000);

@@ -1,3 +1,5 @@
+package ClassExamples.AnonymousClass;
+
 public class AclassGeneral {
 	public static void main(String[] args) {
 		//GENERAL WAY TO PERFORM

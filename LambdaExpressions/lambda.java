@@ -1,3 +1,5 @@
+package LambdaExpressions;
+
 public class lambda {
 	public static void main(String[] args) {
 		employee1 e = () -> {
