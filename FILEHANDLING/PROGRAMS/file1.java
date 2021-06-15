@@ -1,17 +1,17 @@
 import java.io.*;
 
-// FILE PATH - /home/subham/Desktop/JAVACAT2PRACTICE/FILEHANDLING/FILES/test1.txt
+// FILE PATH - /home/subham/Desktop/JAVAcodes/FILEHANDLING/FILES/test1.txt
 
 public class file1 {
 	public static void main(String[] args) {
 
 		// File obj = new
-		// File("/home/subham/Desktop/JAVACAT2PRACTICE/FILEHANDLING/FILES/test1.txt");
+		// File("/home/subham/Desktop/JAVAcodes/FILEHANDLING/FILES/test1.txt");
 
 		// File obj = new
-		// File("/home/subham/Desktop/JAVACAT2PRACTICE/FILEHANDLING/FILES","test1.txt");
+		// File("/home/subham/Desktop/JAVAcodes/FILEHANDLING/FILES","test1.txt");
 
-		File parent = new File("/home/subham/Desktop/JAVACAT2PRACTICE/FILEHANDLING/FILES");
+		File parent = new File("/home/subham/Desktop/JAVAcodes/FILEHANDLING/FILES");
 		File obj = new File(parent, "test1.txt");
 
 		System.out.println(".seperator: " + obj.separator);
@@ -26,7 +26,6 @@ public class file1 {
 		System.out.println("isDirectory(): " + obj.isDirectory());
 		System.out.println("isFile(): " + obj.isFile());
 		System.out.println("length(): " + obj.length());
-
 
 		String[] s = parent.list();
 		File[] f = parent.listFiles();

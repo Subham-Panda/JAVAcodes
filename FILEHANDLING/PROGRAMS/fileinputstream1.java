@@ -1,15 +1,16 @@
 import java.io.*;
 
-// FILE PATH - /home/subham/Desktop/JAVACAT2PRACTICE/FILEHANDLING/FILES/test1.txt
+// FILE PATH - /home/subham/Desktop/JAVAcodes/FILEHANDLING/FILES/test1.txt
 
 public class fileinputstream1 {
 	public static void main(String[] args) throws Throwable {
 
 		try {
-			File obj = new File("/home/subham/Desktop/JAVACAT2PRACTICE/FILEHANDLING/FILES/test1.txt");
+			File obj = new File("/home/subham/Desktop/JAVAcodes/FILEHANDLING/FILES/test1.txt");
 			FileInputStream fin = new FileInputStream(obj);
 
-			// FileInputStream fin = new FileInputStream(new File("/home/subham/Desktop/JAVACAT2PRACTICE/FILEHANDLING/FILES/test1.txt"));
+			// FileInputStream fin = new FileInputStream(new
+			// File("/home/subham/Desktop/JAVAcodes/FILEHANDLING/FILES/test1.txt"));
 
 			// int data = fin.read();
 			// System.out.println((char) data); //h

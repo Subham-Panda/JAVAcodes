@@ -46,7 +46,7 @@ class test2 {
 		Thread.currentThread().sleep(9000);
 	}
 
-	public static synchronized void display1() throws Throwable { 
+	public synchronized void display1() throws Throwable { 
 		System.out.println("I am not static and synchronized");
 	}
 }

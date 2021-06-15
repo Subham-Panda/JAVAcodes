@@ -17,7 +17,7 @@
 - outputstreamwriter
 - datainputoutputstream
 - objectinputoutputstream
-- bufferedimputstream
+- bufferedinputstream
 - bufferedoutputstream
 - bufferedreader1
 - bufferedreader2

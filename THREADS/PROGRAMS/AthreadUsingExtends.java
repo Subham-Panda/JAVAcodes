@@ -1,6 +1,7 @@
 package THREADS.PROGRAMS;
 
 import java.io.*;
+
 public class AthreadUsingExtends {
 	public static void main(String[] args) {
 		// processfile1 file1 = new processfile1();
@@ -24,7 +25,7 @@ class processfile1 extends Thread {
 	public void run() {
 
 		try {
-			File obj = new File("/home/subham/Desktop/JAVACAT2PRACTICE/THREADS/FILES/test1.txt");
+			File obj = new File("/home/subham/Desktop/JAVAcodes/THREADS/FILES/test1.txt");
 			FileOutputStream fout = new FileOutputStream(obj);
 			for (int i = 1; i < 100; i++) {
 				System.out.println("FILE 1 write");
@@ -45,9 +46,9 @@ class processfile2 extends Thread {
 
 	@Override
 	public void run() {
-		
-		try{
-			File obj = new File("/home/subham/Desktop/JAVACAT2PRACTICE/THREADS/FILES/test2.txt");
+
+		try {
+			File obj = new File("/home/subham/Desktop/JAVAcodes/THREADS/FILES/test2.txt");
 			FileOutputStream fout = new FileOutputStream(obj);
 			for (int i = 100; i < 200; i++) {
 				System.out.println("FILE 2 write");
